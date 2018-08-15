@@ -16,7 +16,7 @@ namespace Client
         public Client(TcpClient Client, NetworkStream Stream)
         {
             client = Client;
-            userId = "Human";
+            userId = "User";
             stream = Stream;
         }
         public void Send(string Message)
